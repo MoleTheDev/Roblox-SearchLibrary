@@ -5,7 +5,7 @@ Roblox Luau Search Gui Library
 #### Importing:
 This works in Roblox Executors only.
 ```lua
-loadstring(game:HttpGet("https://github.com/MoleTheDev/Roblox-SearchLibrary/"))()
+local SearchingLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/MoleTheDev/Roblox-SearchLibrary/main/SearchLibrary.lua"))()
 ```
 **NOTE**If you want to use it in Roblox Studio (to skid it), copy the source code and put it in a localscript
 #### Args
@@ -23,6 +23,8 @@ This creates a button inside the UIListLayout which can be searchable
 
 #### Example
 ```lua
+local SearchingLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/MoleTheDev/Roblox-SearchLibrary/main/SearchLibrary.lua"))()
+
 local window = SearchingLib:CreateWindow(true, "0, 0, 0")
 local button1 = SearchingLib:CreateItem("button123", "click me", function()
 	print("test")
