@@ -34,7 +34,3 @@ local button2 = SearchingLib:CreateItem("button123123", "click me 2", function()
 	print("ok")
 end)
 ```
-
-### Discord
-if you want help in coding<br>
-MOLE#2165
